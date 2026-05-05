@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Aviator Signal",
+    "slug": "aviator-signal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./logo.jpeg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./logo.jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#03050d"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.aviator.signal",
+      "adaptiveIcon": {
+        "foregroundImage": "./logo.jpeg",
+        "backgroundColor": "#03050d"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "26a59ca5-d5a8-48a2-9de3-0996796a7d5e"
+      }
+    }
+  }
+}
